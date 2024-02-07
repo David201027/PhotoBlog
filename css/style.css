@@ -1,0 +1,58 @@
+:root{
+    ---color-main: #03A9F4;
+    ---color-text: #626262;
+    ---color-a: #B4AD9E;
+    ---color-a-header: #7D7D7D;
+}
+.header-nav-list-item{
+    color: var(---color-a-header);
+}
+.header-nav-list-item :active{
+    color: var(---color-main);
+}
+.header-nav-list-item{
+    color: var(---color-a-header);
+}
+.gallery-link{
+    color: var(---color-a);
+}
+.gallery-list-title{
+    color: var(---color-text);
+}
+.galery-text{
+    color: var(---color-text);
+}
+.button{
+    color: var(---color-text);
+    border: var(---color-text);
+}
+.header{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.66px;
+}
+.gallery-link{
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.09px;
+}
+.gallery-list-title{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39.99px;
+}
+.galery-text{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.66px;
+}
+.button{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.66px;
+}
