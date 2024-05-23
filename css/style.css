@@ -4,13 +4,19 @@
     ---color-a: #B4AD9E;
     ---color-a-header: #7D7D7D;
 }
-.header-nav-list-item{
+.header-list{
+    width: 555px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-link :hover{
     color: var(---color-a-header);
 }
-.header-nav-list-item :active{
+.header-link:active{
     color: var(---color-main);
 }
-.header-nav-list-item{
+.header-link{
     color: var(---color-a-header);
 }
 .gallery-link{
